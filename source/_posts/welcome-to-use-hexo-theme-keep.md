@@ -1,7 +1,17 @@
 ---
-title: Hello World
+title: Welcome to use Hexo Theme Keep
+date: 2022-10-25 11:40:36
+tags: [Hexo, Keep]
+categories: [Hexo]
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+Welcome to use Hexo Theme Keep.
+
+This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues).
+
+<!-- more -->
+
+![keep-slogan](/images/keep-slogan.svg)
 
 ## Quick Start
 
