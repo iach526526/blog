@@ -3,8 +3,10 @@ title: Hack Club arcade
 date: 2024-08-12 08:58:24
 tags:
   - 我們是做好駭客
+  - coding
   - project
 ---
+
 七月底注意到 Hack Club 和 GitHub舉辦的 Arcade ，活動主軸就是做專案上傳到 GitHub 並交由他們的審核員審核，每做一小時通過可以拿到一張 Ticket ，最後可以使用 Ticket 兌換各種商品，活動到 8月結束。
 
 兌換商店有烙鐵、麵包板、3D 列印這類的工具；也有筆電、平板、顯卡等等的 3C 產品。我的目標是 160 Ticket 的 iPad 和 70 Ticket 的 Flipper 這兩樣東西我真的好想要，所以最近我有時間就在推 commit 完成還沒完成的專案，
