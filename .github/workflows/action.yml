@@ -1,8 +1,8 @@
-name: Deploying Hexo project to GitHub pages
+name: deploying Hexo project to GitHub pages
 on:
   push:
     branches:
-      - main
+      - main # 這個分支有行為就觸發這個 action
 
 jobs:
   build-and-deploy:
@@ -14,9 +14,8 @@ jobs:
           fetch-depth: 0
 
       - name: Build and Deploy
-        uses: iach526526/blog@main
+        uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
         env:
           PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }}
           PUBLISH_REPOSITORY: iach526526/blog
           BRANCH: gh-pages
-          CNAME: keep-start.xpoet.cn

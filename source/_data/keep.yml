@@ -52,15 +52,14 @@ first_screen:
   enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
-  background_img: /images/bg.svg
+  background_img: /images/static/bg.jpg
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/static/bg.jpg
+  background_img_dark: /images/static/bg.svg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
-  description: Keep writing || Keep loving.
-
+  description: 再長的惡夢||也總有被晨曦撕碎的時候
   # If enable hitokoto, first screen description is different every time when you enter the website
   hitokoto: false      # Option values: true | false
 
@@ -331,9 +330,10 @@ footer:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
 # ---------------------------------------------------------------------------------------
 inject:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
   css:
     -
+      - /css/index_screen.css
       # e.g.
       # - /css/custom-1.css
       # - /css/custom-2.css
