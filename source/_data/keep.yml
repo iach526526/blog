@@ -38,10 +38,10 @@ menu:
   archives: /archives           # || fa-solid fa-box-archive
   tags: /tags                   # || fa-solid fa-tags
   categories: /categories       # || fa-solid fa-layer-group
+  about: /about               # || fa-solid fa-user-graduate
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
-  # about: /about               # || fa-solid fa-user-graduate
   # ......
 
 
@@ -75,6 +75,7 @@ social_contact:
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
     github: https://github.com/iach526526          # GitHub
+    email: iach526526@gmail.com           # Email
     # weixin:          # WeChat
     # qq:              # QQ
     # weibo:           # WeiBo
@@ -82,7 +83,6 @@ social_contact:
     # twitter:         # Twitter
     # x:               # X
     # facebook:        # Facebook
-    # email:           # Email
 
 
 # ---------------------------------------------------------------------------------------
@@ -340,6 +340,8 @@ inject:
     # - ...
   js:
     -
+      # - https://font.emtech.cc/emfont.min.js
+      - /js/font.js
       # e.g.
       # - /js/custom-1.js
       # - /js/custom-2.js
