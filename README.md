@@ -6,6 +6,7 @@
 
 ```bash
 npm install
+npm install -g hexo-cli
 ```
 
 ### Run the project
