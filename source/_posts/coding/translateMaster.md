@@ -3,10 +3,11 @@ title: 路見不平，拔刀翻譯。Docusaurus 框架下的文檔翻譯
 date: 2024-08-30 09:10:04
 tags:
   - project
+categories: [coding]
 ---
 
-今天要來翻譯 Docusaurus 文檔，在開始之前先講講 [Docusaurus](https://github.com/facebook/docusaurus) 吧！
-
+今天要來翻譯 Docusaurus 文檔，首先先介紹一下什麼是 [Docusaurus](https://github.com/facebook/docusaurus) 。
+<!-- more -->
 > 要實作這篇文章的內容需要事先安裝 node.js，這邊假設大家都有環境
 
 ## 什麼是 Docusaurus？

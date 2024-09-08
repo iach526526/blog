@@ -3,8 +3,8 @@ title: Hack Club arcade
 date: 2024-08-12 08:58:24
 tags:
   - 我們是做好駭客
-  - coding
   - project
+categories: [coding]
 ---
 
 七月底注意到 Hack Club 和 GitHub舉辦的 Arcade ，活動主軸就是做專案上傳到 GitHub 並交由他們的審核員審核，每做一小時通過可以拿到一張 Ticket ，最後可以使用 Ticket 兌換各種商品，活動到 8月結束。

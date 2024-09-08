@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Keep
-subtitle: Hexo theme keep quick starter
+title: 奕站
+subtitle: iach的部落格
 description: ''
 keywords:
-author: Keep Team
+author: iach526
 language: zh-TW  # en | zh-CN | zh-TW
 timezone: ''
 
@@ -25,7 +25,7 @@ pretty_urls:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: history #發布歷史，在生成網頁時會自動生成一個，但不會在前端有辦法透過 UI 點到
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang

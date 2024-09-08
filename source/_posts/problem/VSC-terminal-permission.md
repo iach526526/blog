@@ -2,11 +2,12 @@
 title: Visual studio code 系統上已停用指令碼執行
 date: 2024-09-01 11:01:00
 tags: python
+categories: [problem]
+excerpt: 今天在 VS code 開啟 python 虛擬環境的時候執行 active 卻顯示
 ---
 今天在 VS code 開啟 python 虛擬環境的時候執行 active 卻顯示
-
-![erro display](./VSC-terminal-permission/error.png)
-
+<!-- more -->
+![erro display](\images\problem\VSC-terminal-permission\error.png)
 ## 讓我執行這個指令！！
 
 VSC 終端機看起來權限不太夠，這時候我們可以暫時更改執行政策以允許執行虛擬環境的 Script。請按照以下步驟進行：
