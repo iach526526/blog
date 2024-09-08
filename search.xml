@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>讓你的網站套用特殊字型</title>
+    <url>/blog/uncategorized/blog-font/</url>
+    <content><![CDATA[<p>最近正在積極的布置我的 blog，然而再怎麼微調網站的 CSS 就是覺得還有哪裡不夠好。</p>
+<h3 id="字型！"><a href="#字型！" class="headerlink" title="字型！"></a>字型！</h3><h2 id="是字型！"><a href="#是字型！" class="headerlink" title="是字型！"></a>是字型！</h2><p>內心中謎之聲告訴我是網頁的新細明體害的，所以我決定把他換掉！本 blog 使用 hexo keep 框架，這東西支援 CSS 和 JS inject ，我們可以自設定 CSS 和 javaScript，詳見<a class="link"   href="https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html" > hexo keep 文檔<i class="fas fa-external-link-alt"></i></a>，只要</p>
+<h2 id="emfont"><a href="#emfont" class="headerlink" title="emfont"></a><a class="link"   href="https://github.com/emfont/emfont" >emfont<i class="fas fa-external-link-alt"></i></a></h2><p>免費的繁體中文 Web Font 服務。</p>
+]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hack Club arcade</title>
+    <url>/blog/coding/coding/Hack-Club/</url>
+    <content><![CDATA[<p>七月底注意到 Hack Club 和 GitHub舉辦的 Arcade ，活動主軸就是做專案上傳到 GitHub 並交由他們的審核員審核，每做一小時通過可以拿到一張 Ticket ，最後可以使用 Ticket 兌換各種商品，活動到 8月結束。</p>
+<p>兌換商店有烙鐵、麵包板、3D 列印這類的工具；也有筆電、平板、顯卡等等的 3C 產品。我的目標是 160 Ticket 的 iPad 和 70 Ticket 的 Flipper 這兩樣東西我真的好想要，所以最近我有時間就在推 commit 完成還沒完成的專案，</p>
+<p>我至今推了 eduvoice、中電喵、Figma 繪圖、GitHub 首頁的動態特效累積 commit，當然 AIS3 的專案我也沒有放過，通通放上去繳了，現在累積已經 80 小時。</p>
+<p>在準備替我擔心是詐騙已經開始打字提醒我天底下沒有免費送 iPad 和顯卡這麼好康的事之前，我先來介紹一下 Hack Club：這是一個全球性的青少年駭客社群，創辦人是一名深知教育體系無法提供足夠資源滿足他的技術需求的 16 歲高中輟學生，創立目標是「駭入」教育系統，讓年輕駭客透過技術創作和開源專案，培養他們的創新思維和實踐能力。</p>
+<p>很有趣的是身邊好多人聽到我的獎品目標都替我擔心是不是被騙了，但我從沒有，也不會主動輸入我的任何付款資訊，只有提供收件地址，退一萬步要是獎品沒有成功送到，我還有這些已經完成的開源專案和製作經驗當作我的獎品，大可以不必擔心。</p>
+<p>最後附上 hack Club 的網址和我前幾天收到的註冊獎品，如果還是高中生的話可以去玩一玩順便以商店的獎品當成動力去完成自己想做的專案。<br><a class="link"   href="https://hackclub.com/arcade/" >https://hackclub.com/arcade/<i class="fas fa-external-link-alt"></i></a><br><img  
+                       lazyload
+                       alt="image"
+                       data-src="/blog/images/coding/sticker.jpg"
+                        alt="hackclub-sticker"
+                 ></p>
+]]></content>
+      <categories>
+        <category>coding</category>
+      </categories>
+      <tags>
+        <tag>我們是做好駭客</tag>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>路見不平，拔刀翻譯。Docusaurus 框架下的文檔翻譯</title>
+    <url>/blog/coding/coding/translateMaster/</url>
+    <content><![CDATA[<p>今天要來翻譯 Docusaurus 文檔，首先先介紹一下什麼是 <a class="link"   href="https://github.com/facebook/docusaurus" >Docusaurus<i class="fas fa-external-link-alt"></i></a> 。</p>
+<span id="more"></span>
+<blockquote>
+<p>要實作這篇文章的內容需要事先安裝 node.js，這邊假設大家都有環境</p>
+</blockquote>
+<h2 id="什麼是-Docusaurus？"><a href="#什麼是-Docusaurus？" class="headerlink" title="什麼是 Docusaurus？"></a>什麼是 Docusaurus？</h2><p><img  
+                       lazyload
+                       alt="image"
+                       data-src="/blog/images/coding/Docusaurus.png"
+                        alt="alt text"
+                 ></p>
+<p>Docusaurus 是由 Facebook（現為 Meta）在 2017 年推出的一個專門用於建立靜態網站的開源框架，尤其適合用來創建文檔網站，當然 Docusaurus 也可以拿來當作自己的文字部落格框架，省去刻網頁的麻煩。這個框架廣泛應用於各種技術文檔和產品說明書，像是 Unity Style Guide、React Native 或是中電會的文檔都有使用。點<a class="link"   href="https://github.com/facebook/docusaurus/network/dependents" >這裡<i class="fas fa-external-link-alt"></i></a>可以看到使用 Docusaurus 的開源 repo，如果想貢獻開源力或練習英文閱讀可以到這裡尋找目標。</p>
+<p>Docusaurus 支援 i18n（國際化），這使得網站能夠支持多種語言。這對於希望拓展全球市場的公司、開發者、和看到英文就想關掉的人來說尤其重要。我們只要在 i18n 資料夾下放置我們翻譯好的內容就可以在前端輕鬆切換語言。</p>
+<h2 id="設定翻譯文件"><a href="#設定翻譯文件" class="headerlink" title="設定翻譯文件"></a>設定翻譯文件</h2><p>我這次找的文檔是 Overture Maps 的文檔，它現在是沒有 i18n 資料夾的，但因為我們很確定它使用 Docusaurus 框架，所以我們可以直接跟著<a class="link"   href="https://docusaurus.io/docs/i18n/tutorial" >官方文檔<i class="fas fa-external-link-alt"></i></a>走，先使用下面這條命令產生資料夾。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npx docusaurus write-translations --locale zh-Hant</span><br><span class="line"><span class="comment">#語言要改成你要翻譯的語言，這裡是正體中文</span></span><br></pre></td></tr></table></figure>
+
+<p>接著在 <code>docusaurus.config.js</code>設定該語言的資訊和啟用多語言選單，</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">i18n</span>: &#123;</span><br><span class="line">    <span class="attr">defaultLocale</span>: <span class="string">&#x27;en&#x27;</span>,</span><br><span class="line">    <span class="attr">locales</span>: [<span class="string">&#x27;en&#x27;</span>, <span class="string">&#x27;fr&#x27;</span>, <span class="string">&#x27;fa&#x27;</span>],</span><br><span class="line">    <span class="attr">localeConfigs</span>: &#123;</span><br><span class="line">      <span class="attr">en</span>: &#123;</span><br><span class="line">        <span class="attr">htmlLang</span>: <span class="string">&#x27;en-GB&#x27;</span>,</span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="string">&#x27;zh-Hant&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">label</span>: <span class="string">&#x27;繁體中文&#x27;</span>, </span><br><span class="line">        <span class="attr">direction</span>: <span class="string">&#x27;ltr&#x27;</span>, </span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  ...</span><br><span class="line">  <span class="attr">navbar</span>: &#123;</span><br><span class="line">      <span class="attr">items</span>: [</span><br><span class="line">        <span class="comment">// 其他 nav 設定</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">type</span>: <span class="string">&#x27;localeDropdown&#x27;</span>, <span class="comment">// 切換語言按鈕</span></span><br><span class="line">          <span class="attr">position</span>: <span class="string">&#x27;right&#x27;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>開啟切換語言按鈕後就會在網頁右上角看到它了，真棒！<br><img  
+                       lazyload
+                       alt="image"
+                       data-src="/blog/images/coding/transDemo.png"
+                        alt="alt text"
+                 ></p>
+<p>上面都設定好之後我們到專案根目錄底下應該會看到 i18n 和準備翻譯語言的資料夾zh-Hant，Docusaurus 有一些內建的選單或錯誤頁面會用 JSON 先幫我們翻譯好，大概看過沒問題就可以不用管它了，我們要看的是 <code>docusaurus-plugin-content-docs/current </code> 裡面的 mdx 或 markdown 檔案，這些就是真正要翻譯的網站內容，最後就是精神時光屋的部分了，這邊不教英文，希望大家都能為開源社區盡一份力。</p>
+<p><img  
+                       lazyload
+                       alt="image"
+                       data-src="/blog/images/coding/zh-HantFloder.png"
+                        alt="alt text"
+                 ></p>
+<p>這樣，你就可以說你參與過百人專案了。</p>
+]]></content>
+      <categories>
+        <category>coding</category>
+      </categories>
+      <tags>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Visual studio code 系統上已停用指令碼執行</title>
+    <url>/blog/problem/problem/VSC-terminal-permission/</url>
+    <content><![CDATA[<p>今天在 VS code 開啟 python 虛擬環境的時候執行 active 卻顯示</p>
+<!-- more -->
+<p><img  
+                       lazyload
+                       alt="image"
+                       data-src="/blog/%5Cimages%5Cproblem%5CVSC-terminal-permission%5Cerror.png"
+                        alt="erro display"
+                 ></p>
+<h2 id="讓我執行這個指令！！"><a href="#讓我執行這個指令！！" class="headerlink" title="讓我執行這個指令！！"></a>讓我執行這個指令！！</h2><p>VSC 終端機看起來權限不太夠，這時候我們可以暫時更改執行政策以允許執行虛擬環境的 Script。請按照以下步驟進行：</p>
+<h3 id="更改-PowerShell-執行政策"><a href="#更改-PowerShell-執行政策" class="headerlink" title="更改 PowerShell 執行政策"></a>更改 PowerShell 執行政策</h3><ol>
+<li><p><strong>以管理員身份執行 PowerShell</strong>：</p>
+<ul>
+<li>在 Windows 開始中，搜尋「PowerShell」。</li>
+<li>右鍵點擊「Windows PowerShell」並選擇「以管理員身份執行」。</li>
+</ul>
+</li>
+<li><p><strong>檢查當前的執行政策</strong>（可選）：</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Get-ExecutionPolicy</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>3.更改執行政策</strong>：</p>
+<ul>
+<li>如果你只是臨時想讓終端機執行虛擬環境，可以使用以下命令來允許執行當前會話中的指令：</li>
+</ul>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> <span class="literal">-ExecutionPolicy</span> Bypass <span class="literal">-Scope</span> <span class="keyword">Process</span></span><br></pre></td></tr></table></figure>
+
+<p>如果你希望永久更改執行政策，可以使用以下命令（注意，這樣會更改系統設定，請謹慎操作）：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> <span class="literal">-ExecutionPolicy</span> RemoteSigned <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>5.（可選）將執行政策恢復為預設設定</strong>：<br>如果你選擇了臨時更改執行政策，則在關閉 PowerShell 後，政策將自動恢復。如果永久更改了執行政策，你可以使用以下命令恢復為默認設定：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> <span class="literal">-ExecutionPolicy</span> Restricted <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>problem</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+</search>

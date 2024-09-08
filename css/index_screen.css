@@ -1,0 +1,8 @@
+:root {
+    --first-screen-font-offset: -70px;
+    --first-screen-font-size: 30px;
+    --first-screen-font-color-light: #003366;
+    --first-screen-font-color-dark: #f51515;
+    --first-screen-icon-size: 50px;
+    --base-font-family:emfont-MisekiBitmap;
+}
